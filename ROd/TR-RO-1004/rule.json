@@ -1,0 +1,70 @@
+{
+  "Identifier": "TR-RO-1004",
+  "Type": "Acceptance",
+  "Country": "RO",
+  "Version": "1.0.0",
+  "SchemaVersion": "1.0.0",
+  "Engine": "CERTLOGIC",
+  "EngineVersion": "0.7.5",
+  "CertificateType": "Test",
+  "Description": [
+    {
+      "lang": "en",
+      "desc": "The antigen test (e.g., rapid test) must be included in the EU’s \"Common list of COVID-19 rapid antigen tests\"."
+    },
+    {
+      "lang": "de",
+      "desc": "Der Antigentest (z. B. Schnelltest) muss in die \"Gemeinsame Liste der COVID-19-Antigenschnelltests\" der EU aufgenommen werden."
+    },
+    {
+      "lang": "fr",
+      "desc": "Le test d'antigène (par exemple, un test rapide) doit être inclus dans la \"Liste commune des tests rapides d'antigène COVID-19\" de l'UE."
+    },
+    {
+      "lang": "es",
+      "desc": "La prueba de antígeno (por ejemplo, prueba rápida) debe incluirse en la \"Lista común de pruebas rápidas de antígeno COVID-19\" de la UE."
+    },
+    {
+      "lang": "it",
+      "desc": "Il test dell'antigene (ad es. test rapido) deve essere incluso nell'\"Elenco comune dei test rapidi dell'antigene COVID-19\" dell'UE."
+    }
+  ],
+  "ValidFrom": "2021-09-01T00:00:00Z",
+  "ValidTo": "2031-01-01T00:00:00Z",
+  "AffectedFields": [
+    "t.0",
+    "t.0.ma",
+    "t.0.tt"
+  ],
+  "Logic": {
+    "if": [
+      {
+        "var": "payload.t.0"
+      },
+      {
+        "if": [
+          {
+            "===": [
+              {
+                "var": "payload.t.0.tt"
+              },
+              "LP217198-3"
+            ]
+          },
+          {
+            "in": [
+              {
+                "var": "payload.t.0.ma"
+              },
+              {
+                "var": "external.valueSets.covid-19-lab-test-manufacturer-and-name"
+              }
+            ]
+          },
+          true
+        ]
+      },
+      true
+    ]
+  }
+}
