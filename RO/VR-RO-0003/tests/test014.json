@@ -1,15 +1,18 @@
 {
-  "name": "dt exactly 10 days before now",
+  "name": "dt less than 10 days before now, dn=2 sd=2 , Covishield",
   "payload": {
     "v": [
       {
-        "dt": "2021-08-13"
+        "dt": "2021-08-18",
+        "mp": "Covishield",
+        "dn": 2,
+        "sd": 2
       }
     ]
   },
-  "expected": true,
+  "expected": false,
   "external": {
-    "validationClock": "2021-08-24T00:00:00Z",
+    "validationClock": "2021-08-23T00:00:00Z",
     "valueSets": {
       "country-2-codes": [
         "AD",

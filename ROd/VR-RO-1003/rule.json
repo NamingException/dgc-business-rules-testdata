@@ -1,5 +1,5 @@
 {
-  "Identifier": "VR-RO-0003",
+  "Identifier": "VR-RO-1003",
   "Type": "Acceptance",
   "Country": "RO",
   "Version": "1.0.1",
@@ -29,7 +29,7 @@
       "desc": "Devono essere passati minimo 10 giorni dalla vaccinazione finale necessaria per l’immunizzazione di base. Il richiamo del vaccino o il vaccino per le persone che sono guarite dal virus è valido da subito purché sia riconoscibile come tale in maniera univoca."
     }
   ],
-  "ValidFrom": "2021-10-13T10:00:00Z",
+  "ValidFrom": "2021-10-11T00:00:00Z",
   "ValidTo": "2031-01-01T00:00:00Z",
   "AffectedFields": [
     "v.0",

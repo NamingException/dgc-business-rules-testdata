@@ -1,15 +1,10 @@
 {
-  "name": "dt exactly 10 days before now",
+  "name": "v == empty array",
   "payload": {
-    "v": [
-      {
-        "dt": "2021-08-13"
-      }
-    ]
+    "v": []
   },
   "expected": true,
   "external": {
-    "validationClock": "2021-08-24T00:00:00Z",
     "valueSets": {
       "country-2-codes": [
         "AD",

@@ -1,10 +1,9 @@
 {
-  "name": "more than enough doses",
+  "name": "Moderna-EU/1/20/1507",
   "payload": {
     "v": [
       {
-        "sd": 2,
-        "dn": 3
+        "mp": "EU/1/20/1507"
       }
     ]
   },

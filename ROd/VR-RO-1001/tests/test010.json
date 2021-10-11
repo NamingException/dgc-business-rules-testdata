@@ -1,15 +1,14 @@
 {
-  "name": "dt exactly 10 days before now",
+  "name": "Convidecia",
   "payload": {
     "v": [
       {
-        "dt": "2021-08-13"
+        "mp": "Convidecia"
       }
     ]
   },
-  "expected": true,
+  "expected": false,
   "external": {
-    "validationClock": "2021-08-24T00:00:00Z",
     "valueSets": {
       "country-2-codes": [
         "AD",

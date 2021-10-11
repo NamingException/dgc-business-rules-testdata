@@ -1,10 +1,9 @@
 {
-  "name": "not enough doses",
+  "name": "Pfizer/Invalid",
   "payload": {
     "v": [
       {
-        "sd": 2,
-        "dn": 1
+        "mp": "Pfizer"
       }
     ]
   },

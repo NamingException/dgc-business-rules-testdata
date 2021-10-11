@@ -1,10 +1,9 @@
 {
-  "name": "enough doses",
+  "name": "BioNTech/Pfizer-EU/1/20/1528",
   "payload": {
     "v": [
       {
-        "sd": 2,
-        "dn": 2
+        "mp": "EU/1/20/1528"
       }
     ]
   },

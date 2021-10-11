@@ -1,15 +1,15 @@
 {
-  "name": "dt exactly 10 days before now",
+  "name": "dt more than 10 days before now",
   "payload": {
     "v": [
       {
-        "dt": "2021-08-13"
+        "dt": "2021-08-12"
       }
     ]
   },
   "expected": true,
   "external": {
-    "validationClock": "2021-08-24T00:00:00Z",
+    "validationClock": "2021-08-23T00:00:00Z",
     "valueSets": {
       "country-2-codes": [
         "AD",
