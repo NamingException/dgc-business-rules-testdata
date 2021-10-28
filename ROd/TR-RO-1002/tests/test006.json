@@ -1,16 +1,16 @@
 {
-  "name": "sc more than 48h before now",
+  "name": "sc less than 48h before now [2]",
   "payload": {
     "t": [
       {
         "tt": "LP217198-3",
-        "sc": "2021-07-20T23:00:00Z"
+        "sc": "2021-10-24T06:00:00Z"
       }
     ]
   },
-  "expected": false,
+  "expected": true,
   "external": {
-    "validationClock": "2021-07-23T00:00:00Z",
+    "validationClock": "2021-10-25T06:58:03Z",
     "valueSets": {
       "country-2-codes": [
         "AD",

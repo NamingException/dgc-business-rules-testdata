@@ -2,7 +2,7 @@
   "Identifier": "TR-RO-1002",
   "Type": "Acceptance",
   "Country": "RO",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "SchemaVersion": "1.0.0",
   "Engine": "CERTLOGIC",
   "EngineVersion": "0.7.5",
@@ -10,23 +10,23 @@
   "Description": [
     {
       "lang": "en",
-      "desc": "The sample for an antigen test (e.g., rapid test) must have been taken no longer than 24 hours ago."
+      "desc": "The sample for an antigen test (e.g., rapid test) must have been taken no longer than 48 hours ago."
     },
     {
       "lang": "de",
-      "desc": "Die Probe für einen Antigentest (z. B. Schnelltest) darf nicht länger als 24 Stunden zurückliegen."
+      "desc": "Die Probe für einen Antigentest (z. B. Schnelltest) darf nicht länger als 48 Stunden zurückliegen."
     },
     {
       "lang": "fr",
-      "desc": "L'échantillon pour un test d'antigène (par exemple, un test rapide) doit avoir été prélevé il y a moins de 24 heures."
+      "desc": "L'échantillon pour un test d'antigène (par exemple, un test rapide) doit avoir été prélevé il y a moins de 48 heures."
     },
     {
       "lang": "es",
-      "desc": "La muestra para una prueba de antígeno (p. Ej., Prueba rápida) no debe haberse tomado hace más de 24 horas."
+      "desc": "La muestra para una prueba de antígeno (p. Ej., Prueba rápida) no debe haberse tomado hace más de 48 horas."
     },
     {
       "lang": "it",
-      "desc": "Il campione per un test dell'antigene (ad es. test rapido) deve essere stato prelevato non più di 24 ore prima."
+      "desc": "Il campione per un test dell'antigene (ad es. test rapido) deve essere stato prelevato non più di 48 ore prima."
     }
   ],
   "ValidFrom": "2021-09-01T00:00:00Z",
@@ -67,7 +67,7 @@
                   {
                     "var": "payload.t.0.sc"
                   },
-                  24,
+                  48,
                   "hour"
                 ]
               }

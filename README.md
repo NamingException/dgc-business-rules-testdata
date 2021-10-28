@@ -43,6 +43,8 @@ The results are exposed as an artifact (called `rules-on-testData.json`) of the 
 To execute the tests on the rules of a specific rule set, or even a specific rule, you can run the following:
 
     $ ./node_modules/.bin/mocha dist/run-all-test.js [ruleSetId] [[ruleId]]
+    $ ./tooling/node_modules/.bin/mocha tooling/dist/run-all-tests.js RO TR-RO-1001
+
 
 
 ## Organisation
