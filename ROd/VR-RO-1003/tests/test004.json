@@ -9,7 +9,7 @@
   },
   "expected": true,
   "external": {
-    "validationClock": "2021-08-24T00:00:00Z",
+    "validationClock": "2021-08-23T00:00:00Z",
     "valueSets": {
       "country-2-codes": [
         "AD",

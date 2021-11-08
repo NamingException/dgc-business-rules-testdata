@@ -2,7 +2,7 @@
   "Identifier": "VR-RO-1003",
   "Type": "Acceptance",
   "Country": "RO",
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "SchemaVersion": "1.0.0",
   "Engine": "CERTLOGIC",
   "EngineVersion": "0.7.5",
@@ -103,7 +103,7 @@
                   },
                   true,
                   {
-                    "and": [
+                    "if": [
                       {
                         ">": [
                           {
@@ -114,19 +114,8 @@
                           }
                         ]
                       },
-                      {
-                        "in": [
-                          {
-                            "var": "payload.v.0.mp"
-                          },
-                          [
-                            "EU/1/20/1528",
-                            "EU/1/20/1507",
-                            "EU/1/21/1529",
-                            "Covishield"
-                          ]
-                        ]
-                      }
+                      true,
+                      false
                     ]
                   }
                 ]
