@@ -1,9 +1,9 @@
 {
-  "name": "fr exactly 14 days before now",
+  "name": "fr exactly 10 days before now",
   "payload": {
     "r": [
       {
-        "fr": "2021-07-27"
+        "fr": "2021-07-31"
       }
     ]
   },
