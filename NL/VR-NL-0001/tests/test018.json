@@ -1,15 +1,13 @@
 {
-  "name": "dt more than 365 days before now",
   "payload": {
     "v": [
       {
-        "dt": "2021-10-22"
+        "mp": "EU/1/21/1618"
       }
     ]
   },
-  "expected": false,
+  "expected": true,
   "external": {
-    "validationClock": "2022-10-29T00:00:00Z",
     "valueSets": {
       "country-2-codes": [
         "AD",
