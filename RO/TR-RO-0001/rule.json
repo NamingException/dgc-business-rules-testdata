@@ -29,7 +29,7 @@
       "desc": "Questo deve essere un test NAA (ad es. PCR)."
     }
   ],
-  "ValidFrom": "2021-08-10T00:00:00Z",
+  "ValidFrom": "2021-08-13T00:00:00Z",
   "ValidTo": "2031-01-01T00:00:00Z",
   "AffectedFields": [
     "t.0",
