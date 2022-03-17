@@ -29,7 +29,7 @@
       "desc": "Devono essere trascorsi almeno 10 giorni dal completamento del ciclo primario di immunizzazione. Un colpo di richiamo è valido immediatamente purché sia chiaramente identificato come tale."
     }
   ],
-  "ValidFrom": "2021-11-01T00:00:00Z",
+  "ValidFrom": "2021-11-08T00:00:00Z",
   "ValidTo": "2031-01-01T00:00:00Z",
   "AffectedFields": [
     "v.0",
